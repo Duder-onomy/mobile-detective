@@ -51,7 +51,7 @@ function _isAndroid() {
 }
 
 function _isAndroidPhone() {
-    return !!navigator.userAgent.match(/(?=.*\\bAndroid\b)(?=.*\bMobile\b)/i);
+    return !!navigator.userAgent.match(/(?=.*\bAndroid\b)(?=.*\bMobile\b)/i);
 }
 
 function _isAndroidTablet() {
